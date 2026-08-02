@@ -1,6 +1,7 @@
 import {useNavigate} from 'react-router'
 import { actionTypes, Quizaction } from '../../types';
-import style from './score.module.css';
+import style from './Score.module.css';
+
 
 
 interface Iprops {
