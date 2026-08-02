@@ -8,7 +8,7 @@ const Loading = () => {
     <div className="loadingContainer">
 
       <div className="loadingImage">
-        <img src='../../../public/loading.png' alt="Loading quiz" />
+        
       </div>
 
       <h2>Preparing your quiz...</h2>
