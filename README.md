@@ -1,54 +1,109 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧠 React Quiz Application
 
-Currently, two official plugins are available:
+A modern, fully responsive quiz application built with **React**, **TypeScript**, and **Vite**. The app integrates with the **Open Trivia Database API** to dynamically fetch quiz questions based on the user's selected category, difficulty level, and number of questions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 https://react-quiz-appp.pages.dev/
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 GitHub Repository
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+🔗 https://github.com/israamaherzeer/react-quiz-app
+
+
+
+---
+
+## ✨ Features
+
+- 🎯 Dynamic quiz questions fetched from the Open Trivia Database API
+- 📚 Choose quiz category
+- 🎚️ Select difficulty level (Easy, Medium, Hard)
+- 🔢 Select the number of questions
+- 📊 Real-time score tracking
+- ⏳ Animated loading screen
+- 📈 Progress bar showing quiz completion
+- 📱 Fully responsive design for desktop, tablet, and mobile
+- 🔄 Restart quiz functionality
+- ⚡ Fast performance with Vite
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- Vite
+- React Context API
+- useReducer
+- CSS3
+- Open Trivia Database API
+
+---
+
+## 📸 Screenshots
+
+<img width="1896" height="911" alt="Screenshot 2026-08-03 120241" src="https://github.com/user-attachments/assets/c00ae521-0386-4488-8a03-91c070e1ddc3" />
+<img width="1901" height="906" alt="Screenshot 2026-08-03 120425" src="https://github.com/user-attachments/assets/586797ee-1123-4d3c-a209-ccde1712b395" />
+<img width="1897" height="912" alt="Screenshot 2026-08-03 120620" src="https://github.com/user-attachments/assets/fc04b134-417b-4eb7-86b0-3742f5d5c459" />
+
+
+
+---
+
+
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/israamaherzeer/react-quiz-app.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+cd react-quiz-app
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 API
+
+This project uses the **Open Trivia Database API**.
+
+https://opentdb.com/
+
+---
+
+
+
+---
+
